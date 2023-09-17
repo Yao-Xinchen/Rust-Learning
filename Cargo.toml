@@ -3,5 +3,7 @@
 members = [
     "hello_world",
     "guessing_game",
-    "variables"
+    "variables",
+    "function_comment",
+    "control_flow",
 ]
