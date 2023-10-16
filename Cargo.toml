@@ -1,6 +1,7 @@
 [workspace]
 
 members = [
+    "my_test",
     "hello_world",
     "guessing_game",
     "variables",
