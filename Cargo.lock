@@ -97,6 +97,14 @@ name = "slice"
 version = "0.1.0"
 
 [[package]]
+name = "struct_data"
+version = "0.1.0"
+
+[[package]]
+name = "struct_method"
+version = "0.1.0"
+
+[[package]]
 name = "variables"
 version = "0.1.0"
 
