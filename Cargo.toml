@@ -12,5 +12,6 @@ members = [
     "reference_borrow",
     "slice",
     "struct_data",
-    "struct_method"
+    "struct_method",
+    "enumeration",
 ]

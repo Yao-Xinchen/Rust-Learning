@@ -59,6 +59,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Cargo.enumeration.executor": "Run",
     "Cargo.guessing_game.executor": "Run",
     "Cargo.my_test.executor": "Run",
     "Cargo.ownership.executor": "Run",
@@ -94,9 +95,26 @@
       <recent name="C:\Users\Xinch\Programing\rust_learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.struct_method">
+  <component name="RunManager" selected="Cargo.enumeration">
     <configuration name="control_flow" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --bin control_flow" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="enumeration" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --bin enumeration" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <option name="emulateTerminal" value="true" />
       <option name="channel" value="DEFAULT" />
@@ -283,17 +301,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cargo.control_flow" />
+      <item itemvalue="Cargo.function_comment" />
       <item itemvalue="Cargo.guessing_game" />
       <item itemvalue="Cargo.hello_world" />
-      <item itemvalue="Cargo.variables" />
-      <item itemvalue="Cargo.function_comment" />
-      <item itemvalue="Cargo.control_flow" />
       <item itemvalue="Cargo.my_test" />
       <item itemvalue="Cargo.ownership" />
       <item itemvalue="Cargo.reference_borrow" />
       <item itemvalue="Cargo.slice" />
       <item itemvalue="Cargo.struct_data" />
       <item itemvalue="Cargo.struct_method" />
+      <item itemvalue="Cargo.enumeration" />
+      <item itemvalue="Cargo.variables" />
     </list>
   </component>
   <component name="RustProjectSettings">
@@ -321,7 +340,10 @@
       <workItem from="1697538413183" duration="1486000" />
       <workItem from="1697544672362" duration="4647000" />
       <workItem from="1697591378887" duration="1984000" />
-      <workItem from="1698067996841" duration="3591000" />
+      <workItem from="1698067996841" duration="3772000" />
+      <workItem from="1698074562388" duration="15000" />
+      <workItem from="1698107774474" duration="315000" />
+      <workItem from="1698146315975" duration="4123000" />
     </task>
     <task id="LOCAL-00001" summary="creation">
       <option name="closed" value="true" />
@@ -371,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697549816327</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="tutorial p22 finished">
+      <option name="closed" value="true" />
+      <created>1698074522082</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698074522082</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,7 +426,8 @@
     <MESSAGE value="tutorial p14 finished" />
     <MESSAGE value="my test added, other packages modified" />
     <MESSAGE value="tutorial p19 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="tutorial p19 finished" />
+    <MESSAGE value="tutorial p22 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutorial p22 finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
