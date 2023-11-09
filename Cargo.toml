@@ -14,4 +14,5 @@ members = [
     "struct_data",
     "struct_method",
     "enumeration",
+    "collection",
 ]

@@ -56,46 +56,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Cargo.enumeration.executor": "Run",
-    "Cargo.guessing_game.executor": "Run",
-    "Cargo.my_test.executor": "Run",
-    "Cargo.ownership.executor": "Run",
-    "Cargo.reference_borrow.executor": "Run",
-    "Cargo.slice.executor": "Run",
-    "Cargo.struct.executor": "Run",
-    "Cargo.struct_example.executor": "Run",
-    "Cargo.struct_method.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Xinch/Programing/guessing_game",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
-    "settings.editor.selected.configurable": "preferences.intentionPowerPack",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Cargo.collection.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.enumeration.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.guessing_game.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.my_test.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.ownership.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.reference_borrow.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.slice.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.struct.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.struct_example.executor&quot;: &quot;Run&quot;,
+    &quot;Cargo.struct_method.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Xinch/Programing/guessing_game&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.intentionPowerPack&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Xinch\Programing\rust_learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.enumeration">
+  <component name="RunManager" selected="Cargo.collection">
+    <configuration name="collection" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="command" value="run --bin collection" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="control_flow" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="command" value="run --bin control_flow" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -312,6 +330,7 @@
       <item itemvalue="Cargo.struct_data" />
       <item itemvalue="Cargo.struct_method" />
       <item itemvalue="Cargo.enumeration" />
+      <item itemvalue="Cargo.collection" />
       <item itemvalue="Cargo.variables" />
     </list>
   </component>
@@ -343,7 +362,11 @@
       <workItem from="1698067996841" duration="3772000" />
       <workItem from="1698074562388" duration="15000" />
       <workItem from="1698107774474" duration="315000" />
-      <workItem from="1698146315975" duration="4123000" />
+      <workItem from="1698146315975" duration="4771000" />
+      <workItem from="1698383151765" duration="1264000" />
+      <workItem from="1698385635116" duration="1215000" />
+      <workItem from="1698996943536" duration="1773000" />
+      <workItem from="1699532082743" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="creation">
       <option name="closed" value="true" />
@@ -401,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698074522082</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tutorial p26 finished">
+      <option name="closed" value="true" />
+      <created>1698161463851</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698161463851</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +458,8 @@
     <MESSAGE value="my test added, other packages modified" />
     <MESSAGE value="tutorial p19 finished" />
     <MESSAGE value="tutorial p22 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="tutorial p22 finished" />
+    <MESSAGE value="tutorial p26 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutorial p26 finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
