@@ -1,3 +1,13 @@
+use std::collections::HashMap;
+
+#[derive(Debug)]
+enum Cell
+{
+    Int(i32),
+    Float(f64),
+    Text(String),
+}
+
 fn main() {
     let v: Vec<i32> = Vec::new();
     println!("v: {:?}", v);
@@ -18,4 +28,24 @@ fn main() {
         Some(third) => println!("The third element is {third}"),
         None => println!("There is no third element."),
     }
+
+    let row = vec![
+        Cell::Int(3),
+        Cell::Text(String::from("blue")),
+        Cell::Float(10.12),
+    ];
+
+    for i in &row {
+        println!("{:?}", i);
+    }
+
+    let mut s = String::from("foo");
+    s.push_str("bar");
+    println!("s: {}", s);
+
+    let teams = vec![String::from("Blue"), String::from("Yellow")];
+    let initial_scores = vec![10, 50];
+
+    let scores: HashMap<_, _> = teams.iter().zip(initial_scores.iter()).collect();
+    println!("scores: {:?}", scores);
 }
