@@ -21,6 +21,10 @@ name = "enumeration"
 version = "0.1.0"
 
 [[package]]
+name = "error_handling"
+version = "0.1.0"
+
+[[package]]
 name = "function_comment"
 version = "0.1.0"
 

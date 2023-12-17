@@ -15,4 +15,5 @@ members = [
     "struct_method",
     "enumeration",
     "collection",
+    "error_handling",
 ]
