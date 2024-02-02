@@ -16,4 +16,5 @@ members = [
     "enumeration",
     "collection",
     "error_handling",
+    "generic_trait",
 ]
