@@ -17,4 +17,5 @@ members = [
     "collection",
     "error_handling",
     "generic_trait",
+    "lifetimes",
 ]

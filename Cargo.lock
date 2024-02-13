@@ -61,6 +61,10 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9cdc71e17332e86d2e1d38c1f99edcb6288ee11b815fb1a4b049eaa2114d369b"
 
 [[package]]
+name = "lifetimes"
+version = "0.1.0"
+
+[[package]]
 name = "my_test"
 version = "0.1.0"
 

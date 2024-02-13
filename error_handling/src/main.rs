@@ -1,6 +1,6 @@
 use std::fs::File;
-use std::io::ErrorKind;
 use std::io;
+use std::io::ErrorKind;
 use std::io::Read;
 
 fn read_username_from_file() -> Result<String, io::Error> {
@@ -8,7 +8,6 @@ fn read_username_from_file() -> Result<String, io::Error> {
     File::open("hello.txt")?.read_to_string(&mut username)?;
     Ok(username)
 }
-
 
 fn main() -> Result<(), io::Error> {
     let greeting_file_result = File::open("hello.txt");
@@ -24,5 +23,6 @@ fn main() -> Result<(), io::Error> {
     });
 
     let f = File::open("hello.txt")?;
+    f.metadata()?;
     return Ok(());
 }

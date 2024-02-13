@@ -1,8 +1,7 @@
 use std::collections::HashMap;
 
 #[derive(Debug)]
-enum Cell
-{
+enum Cell {
     Int(i32),
     Float(f64),
     Text(String),

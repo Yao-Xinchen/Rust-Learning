@@ -8,8 +8,10 @@ fn main() {
 
 fn first_word(s: &str) -> &str {
     let bytes = s.as_bytes();
-    for (i, &item) in bytes.iter().enumerate() { // iter() returns each element in a collection
-        if item == b' ' { // b' ' is a byte literal
+    for (i, &item) in bytes.iter().enumerate() {
+        // iter() returns each element in a collection
+        if item == b' ' {
+            // b' ' is a byte literal
             return &s[..i]; // return a slice of the string from 0 to i
         }
     }

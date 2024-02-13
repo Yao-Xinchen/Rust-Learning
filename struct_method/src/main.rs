@@ -52,4 +52,3 @@ fn main() {
 
     println!("sq is {:#?}", sq);
 }
-

@@ -1,6 +1,5 @@
-fn puls_five(x: i32) -> i32
-{
-    return x + 5
+fn puls_five(x: i32) -> i32 {
+    return x + 5;
 }
 
 fn main() {
